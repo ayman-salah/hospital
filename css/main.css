@@ -18,7 +18,7 @@
 }
 
 ::-webkit-scrollbar {
-  transition: all 0.2s linear;
+  transition: all 0.5s linear;
   width: 1rem;
 }
 
@@ -61,6 +61,11 @@ body {
 
 section {
   overflow: hidden;
+}
+
+.container {
+  overflow-x: hidden !important;
+  overflow-y: hidden;
 }
 
 .heading {
@@ -453,7 +458,6 @@ ul {
 .contact-us__box-input--input {
   width: 48.9%;
   height: 4rem;
-  padding: 0 1rem;
   background-color: #fff;
   border: none;
   margin: 0.5rem;
@@ -546,6 +550,9 @@ ul {
 .footer {
   padding: 3rem 1rem 0rem;
   background-color: #354046;
+}
+.footer .container {
+  overflow-x: hidden;
 }
 .footer__box-container {
   display: flex;

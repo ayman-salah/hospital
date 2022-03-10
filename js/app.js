@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $('.nav-icon ').click(function(){
-       $(this).toggleClass('fa-times')
+    $(this).toggleClass('fa-times')
         $('.container__mynav').toggleClass('nav-toggle')
     })
 
@@ -29,19 +29,17 @@ $(document).ready(function(){
 
     // init plugin to make animation while scroll 
     AOS.init({
-        duration:500,
+        duration:400,
         delay:400
     });
     // code of counter up 
 
-   
+
 })
 
 // start code of pure javascript 
 // end jquery code 
 //  start pure javascript code 
-
-// this code for count up the number in section counter while scroll for the first time 
 const timer = document.querySelectorAll('.timer');
 const counter_div = document.querySelector('#counter');
 var state_of_counter_method = false;
@@ -73,8 +71,7 @@ function count_up (el){
             clearInterval(count);
         }
     },1.6);
-    console.log(2000/goal);
-  });
-  
-   
+
+    });
+
 }
