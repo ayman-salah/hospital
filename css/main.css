@@ -142,7 +142,6 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 .header .container__logo--h2 {
   display: flex;

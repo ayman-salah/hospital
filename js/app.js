@@ -30,7 +30,7 @@ $(document).ready(function(){
     // init plugin to make animation while scroll 
     AOS.init({
         duration:400,
-        delay:400
+        delay:200
     });
     // code of counter up 
 
